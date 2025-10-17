@@ -6,7 +6,7 @@ Gaia is built on top of the Detock codebase as that already provides abstraction
 
 ## Running Gaia
 
-To run Gaia, first compile using the instructions in [README_Detock.md](README_Detock.md). After compilation, you can spin up a database service. Instructions to spin up the database service are provided in [tools/README.md](tools/README.md). Finally you can run experiments, and extract results, and plot the results using those instructions.
+To run Gaia, first compile using the instructions in [README_build.md](README_build.md). After compilation, you can spin up a database service. Instructions to spin up the database service are provided in [tools/README.md](tools/README.md). Finally you can run experiments, and extract results, and plot the results using those instructions.
 
 ## Directory Structure
 
