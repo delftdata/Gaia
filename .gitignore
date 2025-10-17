@@ -1,0 +1,98 @@
+# VS Code
+.vscode
+.DS_Store
+!.vscode/cmake-variants.json
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build and dependencies folders
+build/
+build_detock/
+.deps/
+.dep/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files
+*.dat
+
+# Output files
+output/
+data/
+logs/
+keys/
+!keys/.gitkeep
+
+# Build directories (that are deleted and recreated anyway)
+build/*
+
+# GitHub username & token
+aws/github_credentials.json
+aws/conf_files/*/*.conf
+aws/conf_files/*/*/*.conf
+
+# Utilization logging file
+utilization.csv
+
+!*.gitkeep
+
+# Exclude ignoring '.csv' files with final data
+!plots/*
+!latex_generators/*
+
+# Don't incude all raw data, but do keep example
+plots/raw_data/**
+!plots/raw_data/example
+!plots/raw_data/*/
+!plots/raw_data/*/.gitkeep
+
