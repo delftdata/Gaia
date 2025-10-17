@@ -1,0 +1,3 @@
+x_var,Calvin_throughput,Calvin_p50,Calvin_p90,Calvin_p95,Calvin_p99,Calvin_aborts,Calvin_bytes,Calvin_cost,SLOG_throughput,SLOG_p50,SLOG_p90,SLOG_p95,SLOG_p99,SLOG_aborts,SLOG_bytes,SLOG_cost,Detock_throughput,Detock_p50,Detock_p90,Detock_p95,Detock_p99,Detock_aborts,Detock_bytes,Detock_cost,Caerus_throughput,Caerus_p50,Caerus_p90,Caerus_p95,Caerus_p99,Caerus_aborts,Caerus_bytes,Caerus_cost,Mencius_throughput,Mencius_p50,Mencius_p90,Mencius_p95,Mencius_p99,Mencius_aborts,Mencius_bytes,Mencius_cost
+20,,,,,,,,,,,,,,,,,102,5.841233,6.014428199999999,6.0594379,6.09565008,0.0,29728,1215.0759999999998,,,,,,,,,,,,,,,,
+10,,,,,,,,,,,,,,,,,102,234.617118,363.0674132,420.62270035,433.45692964,0.0,29728,1215.0759999999998,,,,,,,,,,,,,,,,

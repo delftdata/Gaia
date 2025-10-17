@@ -1,0 +1,9 @@
+{
+    "benchmark": "tpcc",
+    "duration": 10,
+    "clients": 3000,
+    "txns": 2000000,
+    "partition": -1,
+    "mix": "44:44:4:4:4",
+    "sh_only": 0
+}

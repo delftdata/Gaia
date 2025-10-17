@@ -1,0 +1,26 @@
+{
+    "us-west-1": [
+        {
+            "ip": "131.180.125.40",
+            "instance_id": null,
+            "server": true
+        },
+        {
+            "ip": "131.180.125.41",
+            "instance_id": null,
+            "server": true
+        }
+    ],
+    "us-west-2": [
+        {
+            "ip": "131.180.125.42",
+            "instance_id": null,
+            "server": true
+        },
+        {
+            "ip": "131.180.125.57",
+            "instance_id": null,
+            "server": true
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "username": "omraz",
+  "sample": 10,
+  "trials": 1,
+  "regions": [
+    "us-east-1", "eu-west-1", "ap-northeast-1", "ap-southeast-1"
+  ],
+  "distance_ranking": {
+    "us-east-1":      ["eu-west-1", "ap-northeast-1", "ap-southeast-1"],
+    "eu-west-1":      ["us-east-1", "ap-southeast-1", "ap-northeast-1"],
+    "ap-northeast-1": ["ap-southeast-1", "us-east-1", "eu-west-1"],
+    "ap-southeast-1": ["ap-northeast-1", "eu-west-1", "us-east-1"]
+  },
+  "num_replicas": {
+    "us-east-1": 1,
+    "eu-west-1": 1,
+    "ap-northeast-1": 1,
+    "ap-southeast-1": 1
+  },
+  "shrink_mh_orderer": {
+    "us-east-1": false,
+    "eu-west-1": false,
+    "ap-northeast-1": false,
+    "ap-southeast-1": false
+  },
+  "servers_public": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "servers_private": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "clients": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "tpcc": {
+    "servers": [
+      {
+        "config": "tpcc/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "tpcc",
+    "txns": 0,
+    "duration": 60,
+    "clients": [1, 2],
+    "sh_only": 0,
+    "mh_zipf": 1
+  }
+}

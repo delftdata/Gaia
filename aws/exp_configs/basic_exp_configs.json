@@ -1,0 +1,9 @@
+{
+    "benchmark": "basic",
+    "duration": 10,
+    "clients": 3000,
+    "hot_records": 100,
+    "txns": 2000000,
+    "mh": [0, 20, 40, 60, 80, 100],
+    "mp": [0, 20, 40, 60, 80, 100]
+}

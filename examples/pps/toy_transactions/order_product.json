@@ -1,0 +1,8 @@
+{
+    "workload": "pps",
+    "txn_type": "order_product",
+    "arguments": {
+        "product_id": 1,
+        "parts_ids": [3, 2, 6]
+    }
+}

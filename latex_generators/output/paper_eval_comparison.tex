@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{A comparison of the evaluation scenarios and aspects used in the evaluations of XXX deterministic database publications.}
+\label{tab:evaluation_comparison}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}System /\\ Publication\end{tabular}}}} & \multicolumn{5}{c|}{\textbf{Scenario}} & \multicolumn{2}{c|}{\textbf{Metric}} \\ \cline{2-8}
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{Skew} & \multicolumn{1}{c|}{Scalability} & \multicolumn{1}{c|}{Network} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Packet\\ loss\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Varying\\ HW\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data\\ transfers\end{tabular}} & \multicolumn{1}{c|}{Cost} \\ \hline
+Calvin~\cite{thomson2012calvin} & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+SLOG~\cite{ren2019slog} & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Detock~\cite{nguyen2023detock} & \cmark & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Caerus~\cite{hildred2023caerus} & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Mencius~\cite{mao2008mencius} & \xmark & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Atom. MC~\cite{pacheco2023primcast} & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Aria~\cite{lu13aria} & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Cockroach~\cite{taft2020cockroachdb} & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Spanner~\cite{corbett2013spanner} & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Janus~\cite{mu2016consolidating} & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+Deneva~\cite{harding2017evaluation} & \cmark & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\ \hline
+\textbf{\framework~(Ours)} & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ \hline
+\end{tabular}
+}
+\end{table}

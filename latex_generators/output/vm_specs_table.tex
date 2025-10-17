@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Resource parameters and per hour pricing of various AWS instance types.}
+\label{tab:vm_instance_pricing}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+\multicolumn{1}{|c|}{\textbf{VM Type}} & 
+\multicolumn{1}{c|}{\textbf{vCPUs}} & 
+\multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Memory\\(GiB))\end{tabular}}} & 
+\multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Network\\Performance\end{tabular}}} & 
+\multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Cost per Hour\\(\$, us-east-1)\end{tabular}}} \\ 
+\hline
+m4.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.22,0.35,0.50} High & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.400 \\ \hline
+r5.4xlarge & \cellcolor[rgb]{0.22,0.35,0.50} 16 & \cellcolor[rgb]{0.22,0.35,0.50} 128 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 10 Gigabit & \cellcolor[rgb]{0.52,0.20,0.30} \$ 1.008 \\ \hline
+m5.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 10 Gigabit & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.384 \\ \hline
+c5.4xlarge & \cellcolor[rgb]{0.22,0.35,0.50} 16 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 10 Gigabit & \cellcolor[rgb]{0.90,0.94,0.96} \$ 0.680 \\ \hline
+t3.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 5 Gigabit & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.332 \\ \hline
+m5a.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 10 Gigabit & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.344 \\ \hline
+m5n.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.99,0.89,0.84} 25 Gigabit & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.452 \\ \hline
+m5d.2xlarge & \cellcolor[rgb]{0.52,0.20,0.30} 8 & \cellcolor[rgb]{0.52,0.20,0.30} 32 & \cellcolor[rgb]{0.52,0.20,0.30} Up to 10 Gigabit & \cellcolor[rgb]{0.22,0.35,0.50} \$ 0.456 \\ \hline
+c5n.4xlarge & \cellcolor[rgb]{0.22,0.35,0.50} 16 & \cellcolor[rgb]{0.52,0.20,0.30} 42 & \cellcolor[rgb]{0.22,0.35,0.50} 50 Gigabit & \cellcolor[rgb]{0.69,0.25,0.32} \$ 0.904 \\ \hline
+r5n.4xlarge & \cellcolor[rgb]{0.22,0.35,0.50} 16 & \cellcolor[rgb]{0.22,0.35,0.50} 128 & \cellcolor[rgb]{0.99,0.89,0.84} 25 Gigabit & \cellcolor[rgb]{0.52,0.20,0.30} \$ 1.088 \\ \hline
+\end{tabular}
+}
+\end{table}

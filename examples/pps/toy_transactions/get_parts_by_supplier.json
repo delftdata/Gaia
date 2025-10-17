@@ -1,0 +1,7 @@
+{
+    "workload": "pps",
+    "txn_type": "get_parts_by_supplier",
+    "arguments": {
+        "supplier_id": 3
+    }
+}

@@ -1,0 +1,5 @@
+x_var,Calvin_throughput,Calvin_p50,Calvin_p90,Calvin_p95,Calvin_p99,Calvin_aborts,Calvin_bytes,Calvin_cost,SLOG_throughput,SLOG_p50,SLOG_p90,SLOG_p95,SLOG_p99,SLOG_aborts,SLOG_bytes,SLOG_cost,Detock_throughput,Detock_p50,Detock_p90,Detock_p95,Detock_p99,Detock_aborts,Detock_bytes,Detock_cost,Janus_throughput,Janus_p50,Janus_p90,Janus_p95,Janus_p99,Janus_aborts,Janus_bytes,Janus_cost,Caerus_throughput,Caerus_p50,Caerus_p90,Caerus_p95,Caerus_p99,Caerus_aborts,Caerus_bytes,Caerus_cost,Mencius_throughput,Mencius_p50,Mencius_p90,Mencius_p95,Mencius_p99,Mencius_aborts,Mencius_bytes,Mencius_cost
+0.5,,,,,,,,,,,,,,,,,16584,159.008515,992.0377604000007,1126.44206605,1190.55704795,0.0,6439165849,9.5189990188,,,,,,,,,,,,,,,,,,,,,,,,
+0.65,,,,,,,,,,,,,,,,,17924,315.060417,897.8681764,962.4535097999997,1030.08616584,0.0,6993589449,10.184307338800002,,,,,,,,,,,,,,,,,,,,,,,,
+0.85,,,,,,,,,,,,,,,,,16553,375.009494,945.1662230999999,1042.6120418499997,1121.1204931699995,0.0,6471144578,9.5573734936,,,,,,,,,,,,,,,,,,,,,,,,
+1.0,,,,,,,,,,,,,,,,,16664,369.4575975,957.9178209000002,1064.5360349,1145.9951973799998,0.0,6486425535,9.575710642,,,,,,,,,,,,,,,,,,,,,,,,

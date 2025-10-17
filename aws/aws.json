@@ -1,0 +1,27 @@
+{
+    "aws_username": "omraz",
+    "unused_regions": {
+        "eu-west-1": {
+            "ami_id": "ami-0d64bb532e0502c46",
+            "subnet_id": "subnet-0dfabf5b6c47eb240",
+            "sg_id": "sg-0837568cd61c41bbf"
+        },
+        "eu-west-2": {
+            "ami_id": "ami-0e8d228ad90af673b",
+            "subnet_id": "subnet-0e14a14e8d2948184",
+            "sg_id": "sg-04638beba3be30caf"
+        }
+    },
+    "regions": {
+        "us-west-1": {
+            "ami_id": "ami-0da424eb883458071",
+            "subnet_id": "subnet-0ec58214554aae2a0",
+            "sg_id": "sg-022fc9d4e10ee30da"
+        },
+        "us-west-2": {
+            "ami_id": "ami-04dd23e62ed049936",
+            "subnet_id": "subnet-0d233aec597095edd",
+            "sg_id": "sg-07e32202b21b0d076"
+        }
+    }
+}

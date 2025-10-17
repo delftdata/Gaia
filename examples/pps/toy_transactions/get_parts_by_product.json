@@ -1,0 +1,7 @@
+{
+    "workload": "pps",
+    "txn_type": "get_parts_by_product",
+    "arguments": {
+        "product_id": 1
+    }
+}

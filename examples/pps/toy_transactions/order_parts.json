@@ -1,0 +1,7 @@
+{
+    "workload": "pps",
+    "txn_type": "order_parts",
+    "arguments": {
+        "parts_ids": [1, 2, 6]
+    }
+}

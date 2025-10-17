@@ -1,0 +1,87 @@
+{
+  "username": "omraz",
+  "sample": 10,
+  "regions": ["global"],
+  "num_replicas": {
+    "global": 4
+  },
+  "distance_ranking": {
+    "global": [
+      1, 2, 3,
+      0, 2, 3,
+      0, 1, 3,
+      0, 1, 2
+    ]
+  },
+  "servers_public": {
+    "global": [
+      "131.180.125.40",
+      "131.180.125.41",
+      "131.180.125.42",
+      "131.180.125.57"
+    ]
+  },
+  "servers_private": {
+    "global": [
+      "131.180.125.40",
+      "131.180.125.41",
+      "131.180.125.42",
+      "131.180.125.57"
+    ]
+  },
+  "clients": {
+    "global": [
+      "131.180.125.40",
+      "131.180.125.41",
+      "131.180.125.42",
+      "131.180.125.57"
+    ]
+  },
+  "local_sync_replication": false,
+  "ycsb": {
+    "servers": [
+      { 
+        "config": "ycsb/calvin.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "basic",
+    "txns": 2000000,
+    "duration": 60,
+    "clients": 3000,
+    "hot": [10000, 100],
+    "mp": [0, 50, 100],
+    "mh": [0, 25, 50, 75, 100]
+  },
+  "ycsb-latency": {
+    "servers": [
+      {
+        "config": "ycsb/calvin.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "basic",
+    "txns": 300000,
+    "duration": 30,
+    "hot": [10000, 100],
+    "clients": 20,
+    "generators": 20,
+    "rate_limit": 200,
+    "mp": [100],
+    "mh": [0, 25, 50, 75, 100]
+  },
+  "tpcc": {
+    "servers": [
+      {
+        "config": "tpcc/calvin.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "tpcc",
+    "txns": 0,
+    "duration": 60,
+    "clients": [50, 75, 100, 125, 150, 175, 200, 225, 250, 350, 400, 450, 600, 700, 800, 900, 1000],
+    "sh_only": 0,
+    "mh_zipf": 1
+  }
+}

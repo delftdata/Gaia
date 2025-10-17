@@ -1,0 +1,7 @@
+{
+    "workload": "pps",
+    "txn_type": "get_part",
+    "arguments": {
+        "part_id": 1
+    }
+}

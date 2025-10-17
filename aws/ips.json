@@ -1,0 +1,258 @@
+{
+    "eu-west-1": [
+        {
+            "ip": "54.219.26.217",
+            "private_ip": "10.0.1.14",
+            "instance_id": "i-05be96a5d4031ebaf",
+            "server": true
+        },
+        {
+            "ip": "3.101.88.206",
+            "private_ip": "10.0.1.6",
+            "instance_id": "i-0d80849fec4226183",
+            "server": true
+        },
+        {
+            "ip": "13.56.138.198",
+            "private_ip": "10.0.1.189",
+            "instance_id": "i-09ef5af7dd6ceb7a6",
+            "server": true
+        },
+        {
+            "ip": "54.219.58.146",
+            "private_ip": "10.0.1.137",
+            "instance_id": "i-0c03c6aa2eda7c3ef",
+            "server": true
+        },
+        {
+            "ip": "18.144.50.166",
+            "private_ip": "10.0.1.98",
+            "instance_id": "i-05caf7561c77ec11f",
+            "server": false
+        }
+    ],
+    "eu-west-2": [
+        {
+            "ip": "54.219.101.131",
+            "private_ip": "10.0.1.240",
+            "instance_id": "i-084eb14017153a075",
+            "server": true
+        },
+        {
+            "ip": "54.151.26.8",
+            "private_ip": "10.0.1.190",
+            "instance_id": "i-0335692176679c1e6",
+            "server": true
+        },
+        {
+            "ip": "54.177.148.143",
+            "private_ip": "10.0.1.33",
+            "instance_id": "i-00a01ff1197bcb947",
+            "server": true
+        },
+        {
+            "ip": "54.219.33.0",
+            "private_ip": "10.0.1.62",
+            "instance_id": "i-08456f00da8f5f306",
+            "server": true
+        },
+        {
+            "ip": "54.183.73.194",
+            "private_ip": "10.0.1.46",
+            "instance_id": "i-0064db8ad6c33ce8a",
+            "server": false
+        }
+    ],
+    "us-west-1": [
+        {
+            "ip": "54.177.178.35",
+            "private_ip": "10.0.1.142",
+            "instance_id": "i-0b90e30f5cd9dc390",
+            "server": true
+        },
+        {
+            "ip": "54.177.246.73",
+            "private_ip": "10.0.1.80",
+            "instance_id": "i-0edc36a11f60e6da3",
+            "server": true
+        },
+        {
+            "ip": "54.241.120.83",
+            "private_ip": "10.0.1.116",
+            "instance_id": "i-0a96ca788d92b5340",
+            "server": true
+        },
+        {
+            "ip": "13.57.241.58",
+            "private_ip": "10.0.1.178",
+            "instance_id": "i-0555b1d028fb7a89c",
+            "server": true
+        },
+        {
+            "ip": "52.53.244.50",
+            "private_ip": "10.0.1.88",
+            "instance_id": "i-0ed97ac45072bc8f1",
+            "server": false
+        }
+    ],
+    "us-west-2": [
+        {
+            "ip": "13.56.12.234",
+            "private_ip": "10.0.1.197",
+            "instance_id": "i-09fe8764de1534b9d",
+            "server": true
+        },
+        {
+            "ip": "13.56.114.7",
+            "private_ip": "10.0.1.64",
+            "instance_id": "i-0ee575ce6cdf48392",
+            "server": true
+        },
+        {
+            "ip": "54.193.178.152",
+            "private_ip": "10.0.1.173",
+            "instance_id": "i-0b16f374713a9159e",
+            "server": true
+        },
+        {
+            "ip": "204.236.173.119",
+            "private_ip": "10.0.1.124",
+            "instance_id": "i-0e2c1b3d69c3e2b9e",
+            "server": true
+        },
+        {
+            "ip": "52.53.233.80",
+            "private_ip": "10.0.1.234",
+            "instance_id": "i-04adcccb05818b284",
+            "server": false
+        }
+    ],
+    "us-east-1": [
+        {
+            "ip": "54.193.169.7",
+            "private_ip": "10.0.1.111",
+            "instance_id": "i-0324d4bcad6cc9421",
+            "server": true
+        },
+        {
+            "ip": "52.53.184.90",
+            "private_ip": "10.0.1.233",
+            "instance_id": "i-0f32ddf70e7bf31f1",
+            "server": true
+        },
+        {
+            "ip": "54.219.217.198",
+            "private_ip": "10.0.1.175",
+            "instance_id": "i-0c545e7ee9a39a6ab",
+            "server": true
+        },
+        {
+            "ip": "13.56.58.38",
+            "private_ip": "10.0.1.41",
+            "instance_id": "i-066c4ee52ead6fedf",
+            "server": true
+        },
+        {
+            "ip": "3.101.123.13",
+            "private_ip": "10.0.1.141",
+            "instance_id": "i-071dcbb5bc24cd76a",
+            "server": false
+        }
+    ],
+    "us-east-2": [
+        {
+            "ip": "54.215.122.251",
+            "private_ip": "10.0.1.16",
+            "instance_id": "i-03d17997d30e0ed0f",
+            "server": true
+        },
+        {
+            "ip": "54.183.155.152",
+            "private_ip": "10.0.1.150",
+            "instance_id": "i-033f9046a8f3f3e92",
+            "server": true
+        },
+        {
+            "ip": "54.219.144.255",
+            "private_ip": "10.0.1.120",
+            "instance_id": "i-0d37689e45b92d853",
+            "server": true
+        },
+        {
+            "ip": "54.241.57.216",
+            "private_ip": "10.0.1.154",
+            "instance_id": "i-0ec4c51d47348ef5f",
+            "server": true
+        },
+        {
+            "ip": "54.183.203.39",
+            "private_ip": "10.0.1.143",
+            "instance_id": "i-0978e5d7a2b9f4018",
+            "server": false
+        }
+    ],
+    "ap-northeast-1": [
+        {
+            "ip": "3.101.118.110",
+            "private_ip": "10.0.1.119",
+            "instance_id": "i-0f2bc54df068c7b57",
+            "server": true
+        },
+        {
+            "ip": "54.176.171.45",
+            "private_ip": "10.0.1.109",
+            "instance_id": "i-0dcf34a8a0680276e",
+            "server": true
+        },
+        {
+            "ip": "18.144.73.141",
+            "private_ip": "10.0.1.87",
+            "instance_id": "i-0a78e1ee889d06b4a",
+            "server": true
+        },
+        {
+            "ip": "13.56.223.97",
+            "private_ip": "10.0.1.59",
+            "instance_id": "i-0b9c2c0d5c54afaeb",
+            "server": true
+        },
+        {
+            "ip": "18.144.68.27",
+            "private_ip": "10.0.1.71",
+            "instance_id": "i-04ced6e6e993bebf8",
+            "server": false
+        }
+    ],
+    "ap-northeast-2": [
+        {
+            "ip": "54.183.232.83",
+            "private_ip": "10.0.1.45",
+            "instance_id": "i-08e4e5db0f3ac65fe",
+            "server": true
+        },
+        {
+            "ip": "52.53.129.31",
+            "private_ip": "10.0.1.187",
+            "instance_id": "i-08b6cfd1e73063e2d",
+            "server": true
+        },
+        {
+            "ip": "204.236.171.66",
+            "private_ip": "10.0.1.11",
+            "instance_id": "i-059589d1ab91b1305",
+            "server": true
+        },
+        {
+            "ip": "52.53.203.97",
+            "private_ip": "10.0.1.169",
+            "instance_id": "i-0ab13610c3e7c2502",
+            "server": true
+        },
+        {
+            "ip": "52.53.191.206",
+            "private_ip": "10.0.1.94",
+            "instance_id": "i-0b73d02a9ee1382c0",
+            "server": false
+        }
+    ]
+}

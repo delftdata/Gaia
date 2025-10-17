@@ -1,0 +1,8 @@
+{
+    "workload": "pps",
+    "txn_type": "supplier_restock",
+    "arguments": {
+        "supplier_id": 3,
+        "parts_ids": [8, 10, 9]
+    }
+}

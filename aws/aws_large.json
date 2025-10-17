@@ -1,0 +1,45 @@
+{
+    "aws_username": "omraz",
+    "regions": {
+        "eu-west-1": {
+            "ami_id": "ami-0d64bb532e0502c46",
+            "subnet_id": "subnet-0dfabf5b6c47eb240",
+            "sg_id": "sg-0837568cd61c41bbf"
+        },
+        "eu-west-2": {
+            "ami_id": "ami-0e8d228ad90af673b",
+            "subnet_id": "subnet-0e14a14e8d2948184",
+            "sg_id": "sg-04638beba3be30caf"
+        },
+        "us-west-1": {
+            "ami_id": "ami-0da424eb883458071",
+            "subnet_id": "subnet-0ec58214554aae2a0",
+            "sg_id": "sg-022fc9d4e10ee30da"
+        },
+        "us-west-2": {
+            "ami_id": "ami-04dd23e62ed049936",
+            "subnet_id": "subnet-0d233aec597095edd",
+            "sg_id": "sg-07e32202b21b0d076"
+        },
+        "us-east-1": {
+            "ami_id": "ami-0866a3c8686eaeeba",
+            "subnet_id": "subnet-0118cd69b1585c52e",
+            "sg_id": "sg-07363a75e4af901b9"
+        },
+        "us-east-2": {
+            "ami_id": "ami-0ea3c35c5c3284d82",
+            "subnet_id": "subnet-00979b2c6cdfe52ee",
+            "sg_id": "sg-0ac77dd067af233fe"
+        },
+        "ap-northeast-1": {
+            "ami_id": "ami-0b2cd2a95639e0e5b",
+            "subnet_id": "subnet-0a75f0f8a5c9c750e",
+            "sg_id": "sg-04bf7fb92a0475e8a"
+        },
+        "ap-northeast-2": {
+            "ami_id": "ami-0dc44556af6f78a7b",
+            "subnet_id": "subnet-095c0c6a0b57479cb",
+            "sg_id": "sg-0e7d395c4c9debae4"
+        }
+    }
+}

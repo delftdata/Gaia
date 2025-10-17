@@ -1,0 +1,21 @@
+target_sources(slog-core
+  PRIVATE
+    basic.cpp
+    basic.h
+    cockroach.cpp
+    cockroach.h
+    remastering.cpp
+    remastering.h
+    tpcc.cpp
+    tpcc.h
+    dsh.cpp
+    dsh.h
+    movr.cpp
+    movr.h
+    movie.h
+    movie.cpp
+    pps.cpp
+    pps.h
+    smallbank.cpp
+    smallbank.h
+    workload.h)

@@ -1,0 +1,10 @@
+{
+    "aws_username": "omraz",
+    "regions": {
+        "us-west-1": {
+            "ami_id": "ami-0da424eb883458071",
+            "subnet_id": "subnet-0ec58214554aae2a0",
+            "sg_id": "sg-022fc9d4e10ee30da"
+        }
+    }
+}

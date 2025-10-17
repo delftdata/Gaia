@@ -1,0 +1,13 @@
+System,Skew,Scalability,Network,PacketLoss,VaryHW,DataTransfers,Cost
+Calvin~\cite{thomson2012calvin},\cmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+SLOG~\cite{ren2019slog},\cmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Detock~\cite{nguyen2023detock},\cmark,\cmark,\cmark,\xmark,\xmark,\xmark,\xmark
+Caerus~\cite{hildred2023caerus},\xmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Mencius~\cite{mao2008mencius},\xmark,\cmark,\cmark,\xmark,\xmark,\xmark,\xmark
+Atom. MC~\cite{pacheco2023primcast},\xmark,\xmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Aria~\cite{lu13aria},\cmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Cockroach~\cite{taft2020cockroachdb},\xmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Spanner~\cite{corbett2013spanner},\xmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Janus~\cite{mu2016consolidating},\cmark,\cmark,\xmark,\xmark,\xmark,\xmark,\xmark
+Deneva~\cite{harding2017evaluation},\cmark,\cmark,\cmark,\xmark,\xmark,\xmark,\xmark
+\framework~(Ours),\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark

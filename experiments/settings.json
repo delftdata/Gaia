@@ -1,0 +1,243 @@
+{
+  "username": "omraz",
+  "sample": 10,
+  "regions": [
+    "us-east-1", "eu-west-1", "ap-northeast-1", "ap-southeast-1"
+  ],
+  "distance_ranking": {
+    "us-east-1":      ["eu-west-1", "ap-northeast-1", "ap-southeast-1"],
+    "eu-west-1":      ["us-east-1", "ap-southeast-1", "ap-northeast-1"],
+    "ap-northeast-1": ["ap-southeast-1", "us-east-1", "eu-west-1"],
+    "ap-southeast-1": ["ap-northeast-1", "eu-west-1", "us-east-1"]
+  },
+  "num_replicas": {
+    "us-east-1": 1,
+    "eu-west-1": 1,
+    "ap-northeast-1": 1,
+    "ap-southeast-1": 1
+  },
+  "shrink_mh_orderer": {
+    "us-east-1": false,
+    "eu-west-1": false,
+    "ap-northeast-1": false,
+    "ap-southeast-1": false
+  },
+  "servers_public": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "servers_private": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "clients": {
+    "us-east-1": [
+      "131.180.125.40"
+    ],
+    "eu-west-1": [
+      "131.180.125.41"
+    ],
+    "ap-northeast-1": [
+      "131.180.125.42"
+    ],
+    "ap-southeast-1": [
+      "131.180.125.57"
+    ]
+  },
+  "ycsb": {
+    "servers": [
+      {
+        "config": "ycsb/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      },
+      {
+        "config": "ycsb/baseline.conf",
+        "image": "omraz/seq_eval:slog"
+      },
+      {
+        "config": "ycsb/ddr_only.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "num_log_managers": 5,
+    "workload": "basic",
+    "duration": 60,
+    "clients": 3000,
+    "hot": [10000, 100],
+    "mp": [0, 50, 100],
+    "mh": [0, 5, 15, 25, 50, 75, 100],
+    "include": [
+      {"mp": 0, "mh": 0, "rate_limit": 16000},
+      {"mp": 0, "mh": 5, "rate_limit": 10625},
+      {"mp": 0, "mh": 15, "rate_limit": 10125},
+      {"mp": 0, "mh": 25, "rate_limit": 9875},
+      {"mp": 0, "mh": 50, "rate_limit": 9375},
+      {"mp": 0, "mh": 75, "rate_limit": 8750},
+      {"mp": 0, "mh": 100, "rate_limit": 8750},
+      {"mp": 50, "mh": 0, "rate_limit": 9750},
+      {"mp": 50, "mh": 5, "rate_limit": 7300},
+      {"mp": 50, "mh": 15, "rate_limit": 6900},
+      {"mp": 50, "mh": 25, "rate_limit": 6750},
+      {"mp": 50, "mh": 50, "rate_limit": 6500},
+      {"mp": 50, "mh": 75, "rate_limit": 6250},
+      {"mp": 50, "mh": 100, "rate_limit": 5750},
+      {"mp": 100, "mh": 0, "rate_limit": 7500},
+      {"mp": 100, "mh": 5, "rate_limit": 5875},
+      {"mp": 100, "mh": 15, "rate_limit": 5625},
+      {"mp": 100, "mh": 25, "rate_limit": 5250},
+      {"mp": 100, "mh": 50, "rate_limit": 4625},
+      {"mp": 100, "mh": 75, "rate_limit": 4150},
+      {"mp": 100, "mh": 100, "rate_limit": 3750}
+    ],
+    "exclude": [
+      {"hot": 100, "mp": 50},
+      {"hot": 100, "mp": 75},
+      {"hot": 100, "mp": 100}
+    ]
+  },
+  "ycsb2": {
+    "servers": [
+      {
+        "config": "ycsb/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      },
+      {
+        "config": "ycsb/baseline.conf",
+        "image": "omraz/seq_eval:slog"
+      },
+      {
+        "config": "ycsb/ddr_only.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "num_log_managers": 4,
+    "workload": "basic",
+    "duration": 60,
+    "clients": 3000,
+    "hot": [100],
+    "mp": [50, 100],
+    "mh": [0, 5, 15, 25, 50, 75, 100],
+    "include": [
+      {"mp": 50, "mh": 0, "rate_limit": 9750},
+      {"mp": 50, "mh": 5, "rate_limit": 7300},
+      {"mp": 50, "mh": 15, "rate_limit": 6900},
+      {"mp": 50, "mh": 25, "rate_limit": 6750},
+      {"mp": 50, "mh": 50, "rate_limit": 6500},
+      {"mp": 50, "mh": 75, "rate_limit": 6250},
+      {"mp": 50, "mh": 100, "rate_limit": 5750},
+      {"mp": 100, "mh": 0, "rate_limit": 7500},
+      {"mp": 100, "mh": 5, "rate_limit": 5875},
+      {"mp": 100, "mh": 15, "rate_limit": 5625},
+      {"mp": 100, "mh": 25, "rate_limit": 5250},
+      {"mp": 100, "mh": 50, "rate_limit": 4625},
+      {"mp": 100, "mh": 75, "rate_limit": 4150},
+      {"mp": 100, "mh": 100, "rate_limit": 3750}
+    ]
+  },
+  "ycsb-latency": {
+    "servers": [
+      {
+        "config": "ycsb/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      },
+      {
+        "config": "ycsb/baseline.conf",
+        "image": "omraz/seq_eval:slog"
+      },
+      {
+        "config": "ycsb/ddr_only.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "basic",
+    "txns": 300000,
+    "duration": 60,
+    "clients": 15,
+    "generators": 15,
+    "rate_limit": 1000,
+    "hot": [10000, 100],
+    "mp": [100],
+    "mh": [0, 5, 10, 15, 20, 25, 50, 75, 100]
+  },
+  "ycsb-asym" : {
+    "servers": [
+      {
+        "config": "ycsb/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "basic",
+    "txns": 2000000,
+    "duration": 30,
+    "clients": [3000, 200],
+    "hot": 100,
+    "mp": 100,
+    "mh": 10,
+    "asym_ratio": [50, 60, 70, 80, 90]
+  },
+  "ycsb-jitter" : {
+    "servers": [
+      {
+        "config": "ycsb/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "basic",
+    "txns": 2000000,
+    "duration": 30,
+    "clients": [3000, 200],
+    "hot": 100,
+    "mp": 100,
+    "mh": 10,
+    "jitter": [0, 5, 10, 15, 20, 25, 30, 35, 40]
+  },
+  "tpcc": {
+    "servers": [
+      {
+        "config": "tpcc/ddr_ts.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "tpcc",
+    "txns": 0,
+    "duration": 60,
+    "clients": [1, 25, 50, 75, 100, 125, 150, 175, 200, 225],
+    "sh_only": 0,
+    "mh_zipf": 1
+  },
+  "movie": {
+    "servers": [
+      {
+        "config": "movie/baseline.conf",
+        "image": "omraz/seq_eval:latest"
+      }
+    ],
+    "workload": "movie",
+    "txns": 1000,
+    "duration": 60,
+    "clients": [1, 25, 50, 75, 100, 125, 150, 175, 200, 225],
+    "sh_only": 0,
+    "mh_zipf": 1
+  }
+
+}
