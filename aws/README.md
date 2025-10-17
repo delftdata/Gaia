@@ -19,5 +19,3 @@ For the 'real' data, we need to run our experiments on a true cloud environment,
 ## AWS Cloud Console setup
 
 Note, for AWS you need to set up a VPC, Subnet, Internet Gateway, Route Table and edit the default Security Group. See https://docs.google.com/document/d/1HXoccRjVSvRAXVXmRqj1_kl92spvj4EjNQXJ4Q4Zqf0/edit?pli=1&tab=t.0#heading=h.kxzmtij7uv1q for a full list of instructions.
-
-TODO: Read missing conf files from here https://github.com/delftdata/Detock/commit/c1e982051992c2a6eb53c1bc7c635e6e09e29b26#diff-056a7651d50cab9050bf5a2d74006385257c7a796618b0c001868079ca545fd1L33-L34

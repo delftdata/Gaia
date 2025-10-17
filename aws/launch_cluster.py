@@ -212,7 +212,7 @@ def setup_vm(public_ip, key_path, github_credentials, server_vm_type='r5.4xlarge
         clone_command = """
         export GIT_ASKPASS=/bin/echo &&
         echo {} > /tmp/token &&
-        git clone https://{}:{}@github.com/delftdata/Detock.git
+        git clone https://{}:{}@github.com/anon/anon.git
         """.format(github_credentials["token"], github_credentials["username"], github_credentials["token"])
         execute_remote_command(ssh, clone_command)
         print("Detock Repository cloned.")
@@ -222,7 +222,7 @@ def setup_vm(public_ip, key_path, github_credentials, server_vm_type='r5.4xlarge
         '''clone_command = """
         export GIT_ASKPASS=/bin/echo &&
         echo {} > /tmp/token &&
-        git clone https://{}:{}@github.com/delftdata/iftop.git
+        git clone https://{}:{}@github.com/anon/anon.git
         """.format(github_credentials["token"], github_credentials["username"], github_credentials["token"])
         execute_remote_command(ssh, clone_command)
         print("Iftop Repository cloned.")'''

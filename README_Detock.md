@@ -27,9 +27,9 @@ rm -rf build && mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=release
 make -j$(nproc)
 ```
 
-### Build on TU Delft machines
+### Build on cluster machines
 
-These building instructions have been tested on the TU Delft st5. Whole process takes ~2 mins when building for the 1st time
+These building instructions have been tested on our machines. Whole process takes ~2 mins when building for the 1st time.
 
 ```
 sudo apt update

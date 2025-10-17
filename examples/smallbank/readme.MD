@@ -2,7 +2,7 @@
 
 This folder contains the scripts and configurations used to generate benchmark tables and execute thesis-related experiments on the SmallBank benchmark across different geo-distributed database systems: **Detock**, **SLOG**, **Calvin**, and **Janus**.
 
-## TU Delft Cluster Setup
+## Cluster Setup
 
 For general setup, Python environment installation, and detailed explanation of script parameters, please refer to the [tools/README.md](../../tools/README.md).
 
@@ -20,7 +20,7 @@ python inter-region.py apply   # Apply inter-region delays
 python inter-region.py remove  # Remove inter-region delays
 ```
 
-## TU Delft Cluster
+## Cluster
 ### Running a Complete Scenario
 The complete instructions about setting up the Python environment and all the customizable parameters of the scripts can be found [here](../../tools/README.md).
 

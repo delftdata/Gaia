@@ -59,14 +59,14 @@ Second, start the client:
 $ build/benchmark --wl movie --clients 10 --generators 3 --config examples/movie/single.conf --duration 10 --out_dir /tmp/slog --seed 42
 ```
 
-## Running a full scenario on the TU Delft ST cluster
+## Running a full scenario
 Full, generalized instructions for running scenarios can be found [here](../../tools/README.md).
 
 The available scenarios for the movie benchmark are: baseline, skew, sunflower, scalability, network, packet_loss and lat_breakdown
 
 The movie benchmark supports the following systems: Detock, Calvin, SLOG and Janus
 
-The following is an example of running a full scenario of the DeathStar Movie benchmark on the TU Delft ST cluster. Here we test the baseline scenario on the Detock system.
+The following is an example of running a full scenario of the DeathStar Movie benchmark. Here we test the baseline scenario on the Detock system.
 
 
 

@@ -115,7 +115,7 @@ Since most tables have 'city' as part of their composite keys, we partition the 
 
 ## How to run a Whole Experiment
 
-An experiment consists of multiple benchmarks which are executed sequentially with different parameters. Each experiment targets a specific scenario, outlined below, and measures throughput, latency, aborts, bytes transfered and cost. To run an experiment for a specific scenario, use the `tools/run_config_on_remote.py` and `tools/admin.py` scripts. Instructions for how to use these scripts in the ST cluster environment can be found in this [README](https://github.com/delftdata/Detock/blob/main/tools/README.md) file.
+An experiment consists of multiple benchmarks which are executed sequentially with different parameters. Each experiment targets a specific scenario, outlined below, and measures throughput, latency, aborts, bytes transfered and cost. To run an experiment for a specific scenario, use the `tools/run_config_on_remote.py` and `tools/admin.py` scripts. Instructions for how to use these scripts in the ST cluster environment can be found in this [README](https://github.com/anon/anon/blob/main/tools/README.md) file.
 
 Setup Python environment:
 
@@ -163,7 +163,7 @@ The scenario is set using the `-s` flag in the above command. Currently, the fol
 
 ## How to Generate the Plots
 
-The plots are generated using the `plots/extract_exp_results.py` and `plots/extract_latency_breakdown.py` scripts. Before running the scripts, make sure that dependencies are installed (same as `tools/run_config_on_remote.py` and `tools/admin.py`, refer to this [README](https://github.com/delftdata/Detock/blob/main/tools/README.md) file) The scripts expect the data to be in the `plots/raw_data/movr/scenario` directory so copy the data there if it is not present and then run the scripts.
+The plots are generated using the `plots/extract_exp_results.py` and `plots/extract_latency_breakdown.py` scripts. Before running the scripts, make sure that dependencies are installed (same as `tools/run_config_on_remote.py` and `tools/admin.py`, refer to this [README](https://github.com/anon/anon/blob/main/tools/README.md) file) The scripts expect the data to be in the `plots/raw_data/movr/scenario` directory so copy the data there if it is not present and then run the scripts.
 
 ```bash
 python3 plots/extract_exp_results.py \

@@ -98,7 +98,7 @@ Client:
 build/benchmark --wl pps --clients 10 --txns 0 --generators 3 --config examples/pps/single.conf --duration 10 --params "mh=50,mp=30,mix=44:44:4:4:4" --out_dir /tmp/slog --seed 42
 ```
 
-## TU Delft Cluster
+## Cluster
 ### Running a Complete Scenario
 The complete instructions about setting up the Python environment and all the customizable parameters of the scripts can be found [here](../../tools/README.md).
 
