@@ -367,6 +367,4 @@ This work is part of project number 19708 of the Vidi research program, which is
 |--- Helper scripts to run expeiments. 'tools/run_experiment.py' is the entry point to running all experiments.
 |- workload/
 |--- Other setup for TPC-C, cockroachDB, remastering experiments. What's the relation to the 'storage' dir?
-|- 
-|- 
 ```
