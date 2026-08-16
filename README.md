@@ -14,6 +14,8 @@ To run Gaia, first compile using the instructions in [Build.md](Build.md). After
 
 For further experiments with CockroachDB, see instructions in [crdb/README.md](crdb/README.md)
 
+For further experiments with Spanner Omni, see instructions in [spanner/README.md](spanner/README.md)
+
 For running experiments on AWS, refer to [aws/README.md](aws/README.md) which contains scripts how to spawn up and set up the necessary AWS VMs.
 
 ## Directory Structure
